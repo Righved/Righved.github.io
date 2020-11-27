@@ -115,7 +115,7 @@ const educationInfo = {
     // },
     {
       schoolName: "APJ Abdul Kalam University",
-      logo: require("./assets/images/uptu_logo.png"),
+      logo: require("./assets/images/uptu_logo.png").default,
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2015 - Jun 2019",
       desc: "Ranked top 2% in the University.Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Software Development Engineer",
       company: "Media.Net (Directi)",
-      companylogo: require("./assets/images/medianet_logo.png"),
+      companylogo: require("./assets/images/medianet_logo.png").default,
       date: "Jan 2020 – Present",
       desc: "7 out of 10,000 applicants chosen",
       descBullets: [
@@ -167,14 +167,14 @@ const workExperiences = {
     {
       role: "Software Development Engineer",
       company: "shareChat",
-      companylogo: require("./assets/images/sharechat_logo.png"),
+      companylogo: require("./assets/images/sharechat_logo.png").default,
       date: "Jul 2019 – Dec 2019",
       desc: "Owned the Centralized API Documentation Scheme for the ShareChat Engineering Team using Eureka and Swagger to directly receive request payloads and runs mock services on the various APIs of 300 different services of the company."
     },
     {
       role: "Software Engineer Intern",
       company: "People Matters",
-      companylogo: require("./assets/images/people_Matters_logo.png"),
+      companylogo: require("./assets/images/people_Matters_logo.png").default,
       date: "Jun 2018 – Jul 2018",
       desc: "Wrote a complete scalable Login portal for the 200 employees of the company which is heavily used by the over-expanding company using PHP, HTML, JavaScript and MySQL."
     },
@@ -198,11 +198,11 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/hacka.jpeg"),
+      image: require("./assets/images/hacka.jpeg").default,
       link: "http://saayahealth.com/"
     },
     {
-      image: require("./assets/images/book_reco.jpeg"),
+      image: require("./assets/images/book_reco.jpeg").default,
       link: "http://nextu.se/"
     }
   ]
@@ -219,7 +219,7 @@ const achievementSection = {
     {
       title: "Winner of Codechef Long Challenge",
       subtitle: "Achieved 1st,28th 59th Rank Globally in October, March and July Long Challenge on Codechef (2018)",
-      image: require("./assets/images/codechef_logo.jpeg"),
+      image: require("./assets/images/codechef_logo.jpeg").default,
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
         { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
@@ -229,14 +229,14 @@ const achievementSection = {
     {
       title: "Finalist in University Programming Competition",
       subtitle: "Secured 3rd University Rank in CodersBit(InterviewBit Flagship Contest) (2018)",
-      image: require("./assets/images/interviewbit_logo.png"),
+      image: require("./assets/images/interviewbit_logo.png").default,
       footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
     },
 
     {
       title: "A Division 1 Competitive Programmer",
       subtitle: "An Expert and a Division 1 user on Codeforces, Codechef and Hackerrank Platforms.Achieving 95 percentile around the world.",
-      image: require("./assets/images/codeforces_logo.png"),
+      image: require("./assets/images/codeforces_logo.png").default,
       footerLink: [
         { name: "Certification", url: "" },
         { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
@@ -285,7 +285,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Playlit 🎙️"),
+  title: emoji("Playlist 🎙️"),
   subtitle: "ENOUGH ABOUT MY PROFESSIONAL AND ACADEMIC EXPERIENCE, LET ME SHARE YOU MY GO-TO PLAYLIST ",
 
   // Please Provide with Your Podcast embeded Link
